@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>TerraResource - About</title>
+    <title>TerraResources - About</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
@@ -15,9 +15,8 @@
 
     <style>
          #mybg {
- background-image: url("circle.png");
  background-color: #cccccc;
- margin: 20px;
+ border: 2px solid black;
 }
     </style>
 </head>
@@ -26,6 +25,12 @@
     <div class="page-wrapper">
       <?php include 'header.php'?>
         <main class="main">
+        <div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
+        		<div class="container">
+        			<h1 class="page-title">About Us</h1>
+                    <h4 >About Company</h4>
+        		</div><!-- End .container -->
+        	</div><!-- End .page-header -->
             <nav aria-label="breadcrumb" class="breadcrumb-nav border-0 mb-0">
                 <div class="container">
                     <ol class="breadcrumb">
@@ -74,7 +79,7 @@ demand.<br><br>
                 <div class="container">
                 <hr>
             	<div class="row justify-content-center">
-                    <div class="col-lg-4 col-sm-6" id="mybg">
+                    <div class="col-lg-4 col-sm-6" id="mybg" >
                         <div class="icon-box icon-box-card text-center">
                             <span class="icon-box-icon">
                                 <i class="icon-check"></i>

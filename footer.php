@@ -20,7 +20,7 @@
 
 </style>
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://api.whatsapp.com/send?phone=+923172746242&text=Is%20any%20basket%20available%20for%20my%20office?" class="float" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=+93412073578&text=How%20we%20can%20advise%20you?" class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
 </a>
  <div id="myButton"></div>
@@ -30,8 +30,8 @@
 	            	<div class="row">
 	            		<div class="col-sm-6 col-lg-6">
 	            			<div class="widget widget-about">
-	            				<!-- <img src="assets/images/logo-footer.png" class="footer-logo" alt="Footer Logo" width="105" height="25">
-	            			  -->
+	            				<img src="images/logo.png" class="footer-logo" alt="Footer Logo" width="105" height="25">
+	            			 
                                 <p>
 Offering diverse Critical minerals,
 both Metallic and Non metallic ores
@@ -72,7 +72,7 @@ Magnesite.</p>
                     <div class="social-icons">
                 <a href="#" class="social-icon" target="_blank" title="Facebook"><i class="icon-facebook-f"></i></a>
                 <a href="https://www.linkedin.com/in/terra-resources-export-028203228/?originalSubdomain=pk" class="social-icon" target="_blank" title="Twitter"><i class="icon-linkedin"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=+923322202671&text=Are%20you%20available?" class="social-icon" target="_blank" title="Instagram"><i class="icon-whatsapp"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+93412073578&text=How%20we%20can%20advise%20you?" class="social-icon" target="_blank" title="Instagram"><i class="icon-whatsapp"></i></a>
             </div><!-- End .social-icons -->
 	        	</div><!-- End .container -->
 	        </div><!-- End .footer-bottom -->

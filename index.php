@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Terraresource - Home</title>
+    <title>Terraresources - Home</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
@@ -53,8 +53,7 @@
                                         </figure><!-- End .slide-image -->
 
                                         <div class="intro-content">
-                                            <h3 class="intro-subtitle">One of the Top Industry</h3><!-- End .h3 intro-subtitle -->
-                                            <h1 class="intro-title">TerraResource<br>Export</h1><!-- End .intro-title -->
+                                             <h1 class="intro-title">TerraResources<br>Export</h1><!-- End .intro-title -->
 
                                             <a href="category.php" class="btn btn-outline-white">
                                                 <span>VISIT</span>
@@ -73,7 +72,7 @@
 
                                         <div class="intro-content">
                                             <h3 class="intro-subtitle">One of the Top Industry</h3><!-- End .h3 intro-subtitle -->
-                                            <h1 class="intro-title">TerraResource<br>Export</h1><!-- End .intro-title -->
+                                            <h1 class="intro-title">TerraResources<br>Export</h1><!-- End .intro-title -->
 
                                             <a href="category.php" class="btn btn-outline-white">
                                                 <span>VISIT</span>
@@ -93,7 +92,7 @@
 
                                         <div class="intro-content">
                                             <h3 class="intro-subtitle">One of the Top Industry</h3><!-- End .h3 intro-subtitle -->
-                                            <h1 class="intro-title">TerraResource<br>Export</h1><!-- End .intro-title -->
+                                            <h1 class="intro-title">TerraResources<br>Export</h1><!-- End .intro-title -->
 
                                             <a href="category.php" class="btn btn-outline-white">
                                                 <span>VISIT</span>
@@ -111,7 +110,7 @@
 
                     <br><br>
             <div class="container categories pt-6">
-        		<h2 class="title-lg text-center mb-4" style="font-family:monospace">Welcome to<br>TERRA Resource Export</h2><!-- End .title-lg text-center -->
+        		<h2 class="title-lg text-center mb-4" style="font-family:monospace">Welcome to<br>TERRA Resources Export</h2><!-- End .title-lg text-center -->
                  
                 <h4 class="title-md text-center mb-4" style="color: grey;padding-left:100px;padding-right:100px;font-family:sans-serif">  Terra Resources Export, trade diverse Critical Mineral ores. We strive to meet exact standards to our customer's requirements. We assure about Quality, Competitive rates, Timely delivery, and Bound to commitment. The Oraganization represents an outstanding Progress in a Brief time period. Our featured exports are Flourite/ Fluorspar (CaF<sub>2</sub>), and Magnesite/ Magnesium Carbonate(MgCO<sub>3</sub>). A warehouse at Karachi ensuring stocks availability all the times. Which aids to pre-shipment inspection/ other port procedures hence, timely supply to worthy customers.</h4>
                 <div class="container">
@@ -281,8 +280,8 @@
                                             <input type="text" class="form-control" id="singin-email" name="location" required placeholder="Enter your location">
                                         </div><!-- End .form-group -->
                                         </div>
-                                <label for="cmessage" class="sr-only">Message</label>
-                				<textarea class="form-control" cols="30" rows="4" id="cmessage" required placeholder="Message *" name="message"></textarea>
+                                        <label for="singin-email">Message</label>
+                				<textarea class="form-control" cols="30" rows="4" id="cmessage" required placeholder="Subject should be between 10 to 255 characters233 / 255 *" name="message"></textarea>
 								
 								<div class="text-center">
 	                				<button type="submit" class="btn btn-outline-primary-2 btn-minwidth-sm" name="submit">

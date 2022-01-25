@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>TerraResource - More About</title>
+    <title>TerraResources - More About</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
@@ -28,7 +28,7 @@
                 </div><!-- End .container -->
             </nav><!-- End .breadcrumb-nav -->
             <div class="container">
-	        	<div class="page-header page-header-big text-center" style="background-image: url('images/1.jpg')">
+	        	<div class="page-header page-header-big text-center" style="background-image: url('images/about.jpg')">
         			<h1 class="page-title text-white">More About us<span class="text-white">Detail of Terra Resource</span></h1>
 	        	</div><!-- End .page-header -->
             </div><!-- End .container -->

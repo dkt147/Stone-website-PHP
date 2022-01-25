@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>TerraResource - FAQ</title>
+	<title>TerraResources - FAQ</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
@@ -263,8 +263,7 @@ schedule of carrier vessels.
                             <div class="row no-gutters flex-column flex-sm-row align-items-sm-center">
                                 <div class="col">
                                     <h3 class="cta-title text-white">If You Have More Questions</h3><!-- End .cta-title -->
-                                    <p class="cta-desc text-white">Quisque volutpat mattis eros</p><!-- End .cta-desc -->
-                                </div><!-- End .col -->
+                                     </div><!-- End .col -->
 
                                 <div class="col-auto">
                                     <a href="contact.php" class="btn btn-outline-white"><span>CONTACT US</span><i class="icon-long-arrow-right"></i></a>

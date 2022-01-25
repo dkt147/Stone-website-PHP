@@ -42,7 +42,7 @@
                             <div class="col-6 col-md-6 col-lg-6 col-xl-6">
                                 <div class="product">
                                     <figure class="product-media">
-                                        <span class="product-label label-new">New</span>
+                                        <span class="product-label label-new">Featured</span>
                                         <a href="product-detail.php?id=<?php echo $output['product_id']?>">
                                             <img src="<?php echo "admin_area/product_images/".$output['product_img1']?>" alt="Product image" class="product-image">
                                         </a>
@@ -77,7 +77,7 @@
 
                         </div><!-- End .owl-carousel -->
                         <div class="more-container text-center">
-                    <a href="category.php" class="btn btn-outline-darker btn-more"><span>Load more products</span><i class="icon-long-arrow-right"></i></a>
+                    <a href="category.php" class="btn btn-outline-darker btn-more"><span>Explore All</span><i class="icon-long-arrow-right"></i></a>
                 </div><!-- End .more-container -->  
                         
                     </div><!-- .End .tab-pane -->

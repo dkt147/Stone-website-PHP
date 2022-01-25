@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>TerraResource - Terms</title>
+    <title>TerraResources - Terms</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
@@ -27,7 +27,7 @@
                 </div><!-- End .container -->
             </nav><!-- End .breadcrumb-nav -->
             <div class="container" style="align-content:initial;">
-	        	<div class="page-header page-header-big text-center" style="background-image: url('images/term.jpg')">
+	        	<div class="page-header page-header-big text-center" style="background-image: url('images/terms.jpg')">
         			<h1 class="page-title text-white">Terms &amp; Conditions.<span class="text-white"> </span></h1>	        	</div><!-- End .page-header -->
             </div><!-- End .container -->
             <div class="container categories pt-6">

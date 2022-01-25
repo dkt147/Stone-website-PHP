@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>TerraResource - Product</title>
+    <title>TerraResources - Product</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
@@ -87,8 +87,17 @@
                             {?>
                             <div class="col-3 col-md-3 col-lg-3 col-xl-3">
                                 <div class="product">
+                                <?php if($output['cat_id'] == 6){
+                                                    ?>
+<span class="product-label label-top">Featured</span>
+                                                <?php
+                                                }else{
+                                                    ?>
+                                                    
+                                                <?php
+                                                }
+                                                ?>
                                     <figure class="product-media">
-                                        <span class="product-label label-new">New</span>
                                         <a href="product-detail.php?id=<?php echo $output['product_id']?>">
                                             <img src="<?php echo "admin_area/product_images/".$output['product_img1']?>" alt="Product image" class="product-image">
                                         </a>
@@ -97,17 +106,15 @@
                                     </figure><!-- End .product-media -->
 
                                     <div class="product-body">
-                                        <div class="product-cat">
-                                            <a href="#"><?php echo "Variety: ".$output['product_url']?></a>
-                                        </div><!-- End .product-cat -->
+                                        
                                         <h3 class="product-title"><a href="product-detail.php?id=<?php echo $output['product_id']?>"><?php echo "Name: ".$output['product_title']?></a></h3><!-- End .product-title -->
                                     
-                                        <div class="product-price">
-                                            $<?php echo $output['product_price']?>
-                                        </div><!-- End .product-price -->
-                                        
+                                      
                                       
                                     </div><!-- End .product-body -->
+                                    <div class="more-container text-center">
+                    <a href="product-detail.php?id=<?php echo $output['product_id']?>" class="btn btn-outline-darker btn-more"><span>View Details</span><i class="icon-long-arrow-right"></i></a>
+                </div><!-- End .more-container --> 
                                 </div><!-- End .product -->
                             </div><!-- End .col-sm-6 col-lg-4 col-xl-3 -->
 <?php

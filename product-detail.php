@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>TerraResource - Product Detail</title>
+    <title>TerraResources - Product Detail</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Molla - Bootstrap eCommerce Template">
     <meta name="author" content="p-themes">
@@ -68,7 +68,8 @@
                             while (	$output = mysqli_fetch_assoc($result))
                             {?>
                                             <figure class="product-main-image">
-                                                <span class="product-label label-top">Top</span>
+                                              
+                                                
                                                 <img id="product-zoom" src="<?php echo "admin_area/product_images/".$output['product_img1']?>" data-zoom-image="<?php echo "admin_area/product_images/".$output['product_img1']?>" alt="product image">
 
                                                 <a href="#" id="btn-product-gallery" class="btn-product-gallery">
@@ -99,12 +100,10 @@
                                             <h1 class="product-title"><?php echo $output['product_title']?></h1><!-- End .product-title -->
 
                                          
-                                            <div class="product-price">
-                                                $<?php echo $output['product_price']?>
-                                            </div><!-- End .product-price -->
+                                           
 
                                             <div class="product-content">
-                                                <p>Sed egestas, ante et vulputate volutpat, eros semper est, vitae luctus metus libero eu augue.</p>
+                                                <p><?php echo $output['product_keywords']?></p>
                                             </div><!-- End .product-content -->
 
                                            
@@ -121,89 +120,38 @@
 
                             <div class="product-details-tab">
                                 <ul class="nav nav-pills justify-content-center" role="tablist">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" id="product-desc-link" data-toggle="tab" href="#product-desc-tab" role="tab" aria-controls="product-desc-tab" aria-selected="true">Description</a>
-                                    </li>
+                                  
                                    
                                 </ul>
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="product-desc-tab" role="tabpanel" aria-labelledby="product-desc-link">
                                         <div class="product-desc-content">
                                             <p><?php echo $output['product_desc']?></p><br>
-                                            <h3>Uses</h3>
+                                            <h3><?php if(!$output['product_keywords']==""){
+                                                echo "Uses";
+                                                }?></h3>
                                             <p><?php echo $output['product_keywords']?></p><br> 
-                                            <h3>Classification</h3>
+                                            <h3><?php if(!$output['product_keywords']==""){
+                                                echo "Classification";
+                                                }?></h3>
                                             <p><?php echo $output['product_label']?></p><br> 
                                             
                                             </div><!-- End .product-desc-content -->
                                     </div><!-- .End .tab-pane -->
-
-                                   <div class="tab-pane fade" id="product-review-tab" role="tabpanel" aria-labelledby="product-review-link">
-                                        <div class="reviews">
-                                            <h3>Reviews (2)</h3>
-                                            <div class="review">
-                                                <div class="row no-gutters">
-                                                    <div class="col-auto">
-                                                        <h4><a href="#">Samanta J.</a></h4>
-                                                        <div class="ratings-container">
-                                                            <div class="ratings">
-                                                                <div class="ratings-val" style="width: 80%;"></div><!-- End .ratings-val -->
-                                                            </div><!-- End .ratings -->
-                                                        </div><!-- End .rating-container -->
-                                                        <span class="review-date">6 days ago</span>
-                                                    </div><!-- End .col -->
-                                                    <div class="col">
-                                                        <h4>Good, perfect size</h4>
-
-                                                        <div class="review-content">
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus cum dolores assumenda asperiores facilis porro reprehenderit animi culpa atque blanditiis commodi perspiciatis doloremque, possimus, explicabo, autem fugit beatae quae voluptas!</p>
-                                                        </div><!-- End .review-content -->
-
-                                                        <div class="review-action">
-                                                            <a href="#"><i class="icon-thumbs-up"></i>Helpful (2)</a>
-                                                            <a href="#"><i class="icon-thumbs-down"></i>Unhelpful (0)</a>
-                                                        </div><!-- End .review-action -->
-                                                    </div><!-- End .col-auto -->
-                                                </div><!-- End .row -->
-                                            </div><!-- End .review -->
-
-                                            <div class="review">
-                                                <div class="row no-gutters">
-                                                    <div class="col-auto">
-                                                        <h4><a href="#">John Doe</a></h4>
-                                                        <div class="ratings-container">
-                                                            <div class="ratings">
-                                                                <div class="ratings-val" style="width: 100%;"></div><!-- End .ratings-val -->
-                                                            </div><!-- End .ratings -->
-                                                        </div><!-- End .rating-container -->
-                                                        <span class="review-date">5 days ago</span>
-                                                    </div><!-- End .col -->
-                                                    <div class="col">
-                                                        <h4>Very good</h4>
-
-                                                        <div class="review-content">
-                                                            <p>Sed, molestias, tempore? Ex dolor esse iure hic veniam laborum blanditiis laudantium iste amet. Cum non voluptate eos enim, ab cumque nam, modi, quas iure illum repellendus, blanditiis perspiciatis beatae!</p>
-                                                        </div><!-- End .review-content -->
-
-                                                        <div class="review-action">
-                                                            <a href="#"><i class="icon-thumbs-up"></i>Helpful (0)</a>
-                                                            <a href="#"><i class="icon-thumbs-down"></i>Unhelpful (0)</a>
-                                                        </div><!-- End .review-action -->
-                                                    </div><!-- End .col-auto -->
-                                                </div><!-- End .row -->
-                                            </div><!-- End .review -->
-                                        </div><!-- End .reviews -->
-                                    </div><!-- .End .tab-pane -->
-                                </div><!-- End .tab-content -->
+                                    
+                                   
+                                </div><!-- End .tab-content --><br>
+                                <div class="more-container text-center">
+                    <a href="category.php" class="btn btn-outline-darker btn-more"><span>Explore All</span><i class="icon-long-arrow-right"></i></a>
+                </div><!-- End .more-container -->  
                             </div><!-- End .product-details-tab -->
                             <?php
                             }
                         }
                         ?>
-                          <?php include 'youmay.php' ?>
                         </div><!-- End .col-lg-9 -->
 
-                    <?php include 'related.php' ?>
+                    
                     </div><!-- End .row -->
 
                 </div><!-- End .container -->

@@ -3,6 +3,7 @@
                 <div class="container">
                     <div class="header-left">
                       <img src="images/logo.png" width="200px" height="120px"/>
+                     
                     </div><!-- End .header-left -->
 
                     <div class="header-right">
@@ -10,8 +11,8 @@
                             <li>
                                 <ul>
                                     <li><a href="https://api.whatsapp.com/send?phone=+923172746242"><i class="icon-phone"></i>+92341-2072-578</a></li>
-                                    <li><a href="https://api.whatsapp.com/send?phone=+923172746242" ><i class="icon-phone"></i>admin@terraresourcesexport.com</a></li>
-                                    <li><a class="btn btn-success" style="color: white;border-radius:20px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif" href="#signin-modal" data-toggle="modal">Get a quote <i class="icon-phone"></i></a></li>    
+                                    <li><a href="https://api.whatsapp.com/send?phone=+923172746242" ><i class="icon-envelope"></i>admin@terraresourcesexport.com</a></li>
+                                    <li><a class="btn btn-success" style="color: white;border-radius:20px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif" href="contact.php" >Get a quote <i class="icon-phone"></i></a></li>    
                                   
                                   
                                 </a></li>
